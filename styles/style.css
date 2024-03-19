@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root
+{
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: #7F2CCB;
+    --hover-color: #3F4E4F;
+
+    --main-font: "Gantari", sans-serif;
+    --text-font: 'Montserrat', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header
+{
+    padding: 3%;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__home
+{
+    margin-left: 5em;
+}
+
+.fa-terminal
+{
+    margin-right: 0.5em;
+}
+
+.fa-terminal
+{
+    color: var(--tertiary-color)
+}
+
+.header__menu__name
+{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.header__menu
+{
+    margin-right: 10em;
+    gap: 5em;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.header__menu__link
+{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.container__home
+{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background: linear-gradient(157deg, rgba(54,19,87,1) 0%, rgba(96,37,152,1) 30%, rgba(161,115,203,1) 78%, rgba(182,146,215,1) 99%);
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.container__home__title 
+{
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 5rem;
+    cursor: default;
+    margin-right: 1rem;
+}
+
+.highlight
+{
+    color: var(--primary-color);
+    background-color: var(--primary-color);
+    text-shadow: -1px -1px 0 var(--secondary-color), 1px -1px 0 var(--secondary-color), -1px 1px 0 var(--secondary-color),
+     1px 1px 0 var(--secondary-color);
+    transition: color 1s;
+}
+
+.highlight:hover
+{
+    color: var(--tertiary-color);
+}
+
+.image__code
+{
+    margin: 0 4rem 0 6rem;
+    height: 20rem;
+}
+
+.container__about
+{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #000;
+    color: white;
+}
+
+.image__palette
+{
+    height: 30rem;
+    margin: 0 10rem 0 2rem;
+}
+
+.container__about__title
+{
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 2.4rem;
+    cursor: default;
+    margin: 0 3rem 0 10rem;
+    line-height: 4rem;
+}
+
+.container__contact 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background: linear-gradient(157deg, rgba(54,19,87,1) 0%, rgba(96,37,152,1) 30%, rgba(161,115,203,1) 78%, rgba(182,146,215,1) 99%);
+}
+
+.container__conntact__div
+{
+    width: 76rem;
+    height: 30rem;
+    background-color: white;
+    text-align: left;
+    padding: 2rem;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.container__conntact__div__text
+{
+    margin-right: 10rem;
+    font-weight: 300;
+}
+
+.container__contact__text
+{
+    font-weight: 400;
+}
+
+.container__contact__frase
+{
+    margin-top: 0em;
+    margin-left: 2em;
+}
+
+.buttons
+{
+    margin: 4rem 0 3rem 8rem;
+}
+
+.button
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    transition: transform 0.5s;
+}
+
+.button:hover
+{
+    background-color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.image__man
+{
+    padding: 3em;
+    height: 22rem;
+}
+
+.container__contact__title
+{
+    padding: 3rem 0 0 7rem;
+    font-size: 2rem;
+}
+.container__contact__frase
+{
+    font-size: 3rem;
+    padding: 0;
+}
+.container__contact__text 
+{
+    font-size: 1.5rem;
+    padding: 1rem 0 0 7rem;
+}
+
+.footer
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5em;
+}
+
+.links
+{
+    margin-top: 2em;
+}
